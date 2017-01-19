@@ -1,0 +1,37 @@
+# This is the actual database input for all questions and possible answers.
+# Feel free to add or change, but please keep to formatting. This file is
+# read in a certain format (yaml) and imported to the database when seeding.
+-
+  id: 0
+  lang: en
+  show_partner: always
+  question: "# First things first
+    When having a good day. Talking foreplay, how long would you like foreplay to last? "
+  answers:
+    -
+      text: "Less than five minutes: I like to skip foreplay and dive right in!"
+      nextquestion: 1
+    -
+      text: "Anywhere up to fifteen minutes: I like a bit of foreplay, but I like the actual sex better."
+      nextquestion: 1
+    -
+      text: "About an hour fits me best: I like a bit of prolonged teasing before having sex."
+      nextquestion: 1
+    -
+      text: "In my ideal world, a day, maybe more? I really think the foreplay is just as good as the sex."
+      nextquestion: 1
+    -
+      text: "For me, there is no definite answer. It depends..."
+      nextquestion: 1
+-
+  id: 1
+  lang: en
+  show_partner: same_answer
+  question: "If it were up to you, who initiates the foreplay?"
+  answers:
+    -
+      text: "Me"
+      nextquestion: 1
+    -
+      text: "My partner(s)"
+      nextquestion: 1
